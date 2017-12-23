@@ -1,0 +1,110 @@
+.oyin {	
+	position: absolute;
+	left: 0%;
+	top: 50%;
+	background: purple;
+	width: 50%;
+	height: 100%;
+}
+.Dep {
+
+	height: 200px;
+	width: 150px;
+	background: white;
+	border: 1px solid black;
+	margin: 5%;
+	float: left;
+}
+.butns {
+	background: no-repeat;
+}
+.manderi{
+	background: no-repeat;
+}
+.manderi #Dep_1_5_1{
+	position: absolute;
+	left: 70px;
+	top: 180px;
+}
+.manderi #Dep_1_5_2{
+	position: absolute;
+	left: 70px;
+	top: 180px;
+}
+.manderi #Dep_1_4_1{
+	position: absolute;
+	left: 70px;
+	top: 180px;
+}
+.manderi #Knopt1{
+
+	position: absolute;
+	left: 100px;
+	top: 180px;
+}
+.manderi #Knopf1{
+	position: absolute;
+	left: 130px;
+	top: 180px;
+}
+#c1 {
+	width: 400px;
+	height: 200px;
+	border: 3px solid black;
+	margin: 40px;
+	position: absolute;
+	left: 5%;
+	background-image: url(setka1.png);
+}
+.manderi #Dep_2_5_1{
+	position: absolute;
+	left: 290px;
+	top: 180px;
+}
+.manderi #Dep_2_5_2{
+	position: absolute;
+	left: 290px;
+	top: 180px;
+}
+.manderi #Dep_2_4_1{
+	position: absolute;
+	left: 290px;
+	top: 180px;
+}
+.manderi #Knopt2{
+
+	position: absolute;
+	left: 320px;
+	top: 180px;
+}
+.manderi #Knopf2{
+	position: absolute;
+	left: 350px;
+	top: 180px;
+}
+.manderi #Dep_3_5_1{
+	position: absolute;
+	left: 510px;
+	top: 180px;
+}
+.manderi #Dep_3_5_2{
+	position: absolute;
+	left: 510px;
+	top: 180px;
+}
+.manderi #Dep_3_4_1{
+	position: absolute;
+	left: 510px;
+	top: 180px;
+}
+.manderi #Knopt3{
+
+	position: absolute;
+	left: 540px;
+	top: 180px;
+}
+.manderi #Knopf3{
+	position: absolute;
+	left: 570px;
+	top: 180px;
+}

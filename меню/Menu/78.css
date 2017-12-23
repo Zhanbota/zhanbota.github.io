@@ -1,0 +1,32 @@
+body {
+    font: 14px 'Verdana';
+    margin: 0;
+    padding: 0;
+}
+ul {
+    display: block;
+}
+ul:after {
+    display: block;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+}
+ul.menu > li > a:hover {
+    background-color: black;
+}
+ul li li ol {
+    display: none;
+
+}
+ul li li ol{
+    display: block;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}

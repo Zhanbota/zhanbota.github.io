@@ -1,0 +1,190 @@
+body{
+background: #D3D3D3;
+}
+
+#menu1 {
+	position: absolute;
+	left:40%;
+	top:12%;
+	height: 440px;
+	width: 320px;
+	background:yellow;
+	border-radius: 10px;
+	border: 10px solid black;
+}
+
+#Elf1 {	
+	position: absolute;
+	left:5%;
+	background:white;
+	border: 2px solid black;	
+	height: 120px;
+	width: 90px;
+	background-image: url(image/Elfs1.png);
+	background-size: cover;
+}
+
+#Gnom1 {
+	position: absolute;
+	left:35%;
+	background:white;
+	border: 2px solid black;
+	height: 120px;
+	width: 90px;
+	background-image: url(image/Gnoms1.png);	
+	background-size: cover;
+}
+
+#Human1 {
+	position: absolute;
+	left:65%;
+	background:white;
+	border: 2px solid black;
+	height: 120px;
+	width: 90px;
+	background-image: url(image/Humans1.png);
+	background-size: cover;
+}
+
+.oiyn {
+	border: 20px solid #000000;
+	width: 1200px;
+	height: 600px;
+}
+#bot1 {
+	position: absolute;
+	top: 400px;
+	left: 70px;
+	height: 60px;
+	width:40px;
+	background-image: url(image/ElfTank.png);
+	background-size: cover;
+}
+
+#bot2 {
+	position: absolute;
+	top: 350px;
+	left: 1120px;
+	height: 60px;
+	width:40px;
+	background-image: url(image/HumanTank.png);
+	background-size: cover;
+}
+
+
+#bekns1 {
+	position: absolute;
+	left:40px;
+	background:white;
+	border: 2px solid black;	
+	height: 90px;
+	width: 90px;
+}
+
+#bekns2 {
+	position: absolute;
+	left:1100px;
+	top: 530px;
+	background:white;
+	border: 2px solid black;	
+	height: 90px;
+	width: 90px;	
+}
+
+#dual1 {
+	border: 5px solid #696969;
+	width: 10px;
+	height: 450px;
+	position: absolute;
+	left: 150px;
+	background-image: url(image/boget1.png);
+	background-size: cover;
+}
+
+#dual2 {
+	border: 5px solid #696969;
+	width: 10px;
+	height: 430px;
+	position: absolute;
+	left: 300px;
+	top: 188px;
+	background-image: url(image/boget1.png);
+	background-size: cover;
+}
+
+#dual3 {
+	border: 5px solid #696969;
+	width: 300px;
+	height: 10px;
+	position: absolute;
+	left: 450px;
+	top: 168px;
+	background-image: url(image/boget1.png);
+	background-size: cover;
+}
+
+#dual4 {
+	border: 5px solid #696969;
+	width: 10px;
+	height: 210px;
+	position: absolute;
+	left: 450px;
+	top: 300px;
+	background-image: url(image/boget1.png);
+	background-size: cover;	
+}
+
+#dual5 {
+	border: 5px solid #696969;
+	width: 10px;
+	height: 450px;
+	position: absolute;
+	left: 900px;
+	background-image: url(image/boget1.png);
+	background-size: cover;	
+}
+
+#dual6 {
+	border: 5px solid #696969;
+	width: 150px;
+	height: 10px;
+	position: absolute;
+	left: 600px;
+	top: 400px;
+	background-image: url(image/boget1.png);
+	background-size: cover;	
+}
+
+#dual7 {
+	border: 5px solid #696969;
+	width: 10px;
+	height: 450px;
+	position: absolute;
+	left: 1050px;
+	top: 168px;
+	background-image: url(image/boget1.png);
+	background-size: cover;	
+}
+
+#dual8 {
+	border: 5px solid #696969;
+	width: 10px;
+	height: 80px;
+	position: absolute;
+	left: 300px;
+	top: 30px;	
+	background-image: url(image/boget1.png);
+	background-size: cover;	
+}
+
+#flag {
+	border: 1px solid #FF0000;
+	width: 50px;
+	height: 20px;
+	position: absolute;
+	left: 580px;
+	top: 300px;
+	background: red;
+}
+
+

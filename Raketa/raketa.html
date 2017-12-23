@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zymyran</title>
+<h1>Zymyran ushuru</h1>
+<h3 id="demo"><h3>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script> 
+		$(document).ready(function(){
+					var ushind=2;
+					var cikle=3;
+			$("#dayin").click(function(){
+				for (var i=0;i<=cikle;i++){
+					var div1 = $("#kara");
+					if (i%2==0){div1.animate({top: '375px', opacity: '0.7'}, "slow");}
+					else {div1.animate({top: '0px', opacity: '0.7'}, "slow");}
+					{var topel= $("#kara");
+					if (174<topel & topel<226) {ushind=1;}}
+					ushind=1;} 
+						var audio = document.createElement('audio');
+						audio.src = "audio/audio1R.mp3"
+						audio.autoplay = true;
+			});
+				$("#ushu").click(function(){
+					if (ushind==1) {
+						for (var i=0;i<=cikle;i++){
+						 $("#kara").stop();}
+						var div2 = $(".zimiran1");
+						{div2.animate({top: '45px',  height:'18px',width:'11px' ,opacity: '0.3'}, "slow");}
+						var div3 = $(".parashut1");
+						{div3.animate({display:'none', top: '90px',opacity: '1'}, "slow");}
+						ushind=0;}	
+				});
+				$("#parashut").click(function(){
+						var div3 = $(".parashut1");
+						{div3.animate({opacity: '1',top: '440px',left:'600px', height:'120px',width:'90px'}, "slow");}	
+						var audio = document.createElement('audio');
+						audio.src = "audio/audio2P.mp3"
+						audio.autoplay = true;
+				});
+			});
+	</script> 
+</head>
+<body>
+	<div class="parashut1" style="height:20px;width:15px;position:absolute;top:460px;left:215px;background-image: url(image/parashut.jpg);background-size: cover;"></div>
+	<div class="zimiran1" style="height:90px;width:55px;position:absolute;top:440px;left:200px;background-image: url(image/Raketa.jpg);background-size: cover;"></div>
+	<div id="shkala" style="background:no-repeat;height:400px;width:25px;position:absolute;top:160px;border: 1px solid gray;">
+		<div style="background:red;height:400px;width:25px;position:absolute;"></div>
+		<div style="background:yellow;height:200px;width:25px;position:absolute;top:100px;"></div>
+		<div style="background:green;height:50px;width:25px;position:absolute;top:175px;"></div>
+		<div id="kara" style="background:black;height:25px;width:25px;position:absolute;"></div>
+	</div>
+	<button id="dayin" style="position:absolute;top:570px;">Dayinmin!</button>
+	<button id="ushu" style="position:absolute;top:570px;left:120px;">Ushamiz!</button>
+	<button id="parashut" style="position:absolute;top:570px;left:230px;">Parashut!</button>
+	<style>
+		body {
+			height: 500px;
+			width: 1200px;
+			background-image: url(image/fon.jpg);
+			background-size: cover;
+		}
+		h1 {
+			background:green;
+			border-radius:5px;
+			float: right;
+			padding: 4px;
+			border: 2px solid black;
+		}
+		button{
+			background:green;
+			height:25px;
+			width:100px;
+			border:1px solid black;
+			border-radius:10px;
+		}
+	</style>
+</body>
+</html>

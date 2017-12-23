@@ -1,0 +1,21 @@
+.brown{
+background-color: brown;
+float: left;
+width: 80px;
+height: 70px;
+margin: 0px 0px 0px 0px;
+border: 1px solid #333;
+}
+
+.yellow{
+background-color: yellow;
+float: left;
+width:80px;
+height: 70px;
+border: 1px solid #333;
+}
+body{
+	position: absolute;
+	left: 25%;
+	top: 0%;
+}

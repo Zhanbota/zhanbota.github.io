@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>TANK</title>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"/></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			$(document).ready(function(){
+		/* HR - halqyn random boiynsha */
+	var botHR_2 = Math.floor(Math.random() * 2);
+	var botHR_1 = 0;
+		/* BG - burylys gradusi */
+	var botBG_1 = 0;
+	var botBG_2 = 0;
+	/* DK - densaulyq korsetkishi*/ 
+	var botDK_1 = 0;
+	var botDK_2 = 0;
+	/* SH - shabuyl kushi */
+	var botSH_1 = 0;
+	var botSH_2 = 0;
+	/* QR - qorganis */
+	var botQR_1 = 0;
+	var botQR_2 = 0;
+	/* ZH - zhildamdik */
+	var botZH_1 = 0;
+	var botZH_2 = 50;
+	/* BZ - burulu zhildamdik */
+	var botBZ_1 = 0;
+	var botBZ_2 = 0;
+	/* TOP  */
+	var botTOP_1 = '400';
+	var botTOP_2 = '350';
+	/* LEFT  */
+	var botLEFT_1 = '70';
+	var botLEFT_2 = '1120';
+	/* Zhenis sharty */
+	var botZS_1= 0 ;
+	
+    $("#Elf1").click(function(){
+        $("#menu1").hide();
+        	botDK_1 = 10;
+        	botSH_1 = 17;
+        	botQR_1 = 0;
+			botZH_1 = 60;
+			botHR_1 = 0;
+			if (botHR_2==0) {
+        		botDK_1 = 10;
+	        	botSH_1 = 17;
+	        	botQR_1 = 0;
+				botZH_1 = 60;} else {
+					if (botHR_2==1) {
+						botDK_1 = 15;
+		        		botSH_1 = 10;
+		        		botQR_1 = 2;
+						botZH_1 = 30;
+						botHR_1 = 1;
+					} else {
+				        botDK_1 = 17;
+			        	botSH_1 = 10;
+			        	botQR_1 = 8;
+						botZH_1 = 30;
+						botHR_1 = 2;	
+					}}
+					do {
+						alert(botTOP_2);
+						botTOP_2 = botTOP_2-botZH_2;
+						var div = $("#bot2");
+						{div.animate({top: botTOP_2+'px', opacity: '1'}, "slow");}
+					} while (botTOP_2<70)
+					do {
+						botLEFT_2 = botLEFT_2-botZH_2;
+						var div2 = $("#bot2");
+						{div2.animate({left: botLEFT_2+'px', opacity: '1'}, "slow");}
+					} while (botLEFT_2<1000)
+					do {
+						botLEFT_2 = botLEFT_2-botZH_2;
+						var div2 = $("#bot2");
+						{div2.animate({left: botLEFT_2+'px', opacity: '1'}, "slow");}
+					} while (botLEFT_2<1000)
+
+
+    });
+    $("#Human1").click(function(){
+        $("#menu1").hide();
+        	botDK_1 = 15;
+        	botSH_1 = 10;
+        	botQR_1 = 2;
+			botZH_1 = 30;
+			botHR_1 = 1;
+			if (botHR_2=0) {
+        		botDK_1 = 10;
+	        	botSH_1 = 17;
+	        	botQR_1 = 0;
+				botZH_1 = 60;} else {
+					if (botHR_2=1) {
+						botDK_1 = 15;
+		        		botSH_1 = 10;
+		        		botQR_1 = 2;
+						botZH_1 = 30;
+						botHR_1 = 1;
+					} else {
+				        botDK_1 = 17;
+			        	botSH_1 = 10;
+			        	botQR_1 = 8;
+						botZH_1 = 30;
+						botHR_1 = 2;	
+					}}
+    });
+      $("#Gnom1").click(function(){
+        $("#menu1").hide();
+        	botDK_1 = 17;
+        	botSH_1 = 10;
+        	botQR_1 = 8;
+			botZH_1 = 30;
+			botHR_1 = 2;
+			if (botHR_2=0) {
+        		botDK_1 = 10;
+	        	botSH_1 = 17;
+	        	botQR_1 = 0;
+				botZH_1 = 60;} else {
+					if (botHR_2=1) {
+						botDK_1 = 15;
+		        		botSH_1 = 10;
+		        		botQR_1 = 2;
+						botZH_1 = 30;
+						botHR_1 = 1;
+					} else {
+				        botDK_1 = 17;
+			        	botSH_1 = 10;
+			        	botQR_1 = 8;
+						botZH_1 = 30;
+						botHR_1 = 2;	
+					}}
+    }); 
+	
+	$(document).keypress(function(event){
+		if (event.keyCode == 119) {
+		var div = $("#bot1");
+		if (botTOP_1>70 & botTOP_1<590){
+		botTOP_1=botTOP_1-botZH_1;}	
+		{div.animate({top: botTOP_1+'px', opacity: '1'}, "slow");}}
+		
+		if (event.keyCode == 115) {
+		var div = $("#bot1");
+		if (botTOP_1>10 & botTOP_1<540){
+		botTOP_1=botTOP_1+botZH_1;}		
+		{div.animate({top: botTOP_1+'px', opacity: '1'}, "slow");}}
+
+		if (event.keyCode == 100) {
+		var div = $("#bot1");
+		if (botLEFT_1>30 & botLEFT_1<1200){
+		botLEFT_1=botLEFT_1+botZH_1;}	
+		{div.animate({left: botLEFT_1+'px', opacity: '1'}, "slow");}}	
+
+		if (event.keyCode == 97) {
+		var div = $("#bot1");
+		if (botLEFT_1>30 & botLEFT_1<1200){
+		botLEFT_1=botLEFT_1-botZH_1;}	
+		{div.animate({left: botLEFT_1+'px', opacity: '1'}, "slow");}}	
+
+		if (event.keyCode == 101) {
+		var div = $("#bot1");
+		{div.animate({top: '400px',left: '70px', opacity: '1'}, "slow");}}	
+	});			
+ }); 
+		</script>
+
+		<div class="oiyn">	
+		
+			<!— bekinister —>
+			<div id="bekns1"><center>X</center></div>
+			<div id="bekns2"><center>X</center></div>
+		
+			<!— oktin ushu animatiasi—>
+			<div id="okanm1"></div>
+			<div id="okanm2"></div>
+			<div id="okanm2"></div>
+			<div id="okanm2"></div>
+			
+			<!— kedergiler —>
+			<div id="dual1"></div>
+			<div id="dual2"></div>
+			<div id="dual3"></div>
+			<div id="dual4"></div>
+			<div id="dual5"></div>
+			<div id="dual6"></div>
+			<div id="dual7"></div>
+			<div id="dual8"></div>
+
+			<!— oqtyn animation —>
+			<div id="okanim1"></div>
+			<div id="okanim1"></div>
+
+			<!— flag ->
+			<div id="flag"></div>
+
+			<!— 4 oiynshy —>
+			<div id="bot1"></div>
+			<div id="bot2"></div>
+			
+		</div>
+			
+		<div id="menu1">
+		
+			<center><h2> Oz halqynysdy tandaniz</h2></center>	
+			
+				<p id="Elfin"><dd>I. Elfterdin tanktary zhyldamdyq zhagynan eshkimge des bermeidi, al zenbirekterinin zhoiqyndygy turaly bar el biledi.</dd></p>
+				<p id="Gnomin"><dd>II. Gnomdardyn tanktaryn qiratu keide elfterdin zenbirekterine de, adamdardyn epti tanktaryna da mumkin emes.</dd></p>
+				<p id="Humanin"><dd>III. Adamdardyn tanktary epti qoldarda dereu zhoiqyn qaruga ainalady.</dd></p>
+			
+			<div id="Elf1"></div>
+			<div id="Gnom1"></div>
+			<div id="Human1"></div>
+		</div>
+	</body>
+</html>

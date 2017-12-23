@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="myP">Жанбота молодец</p>
+
+<p >Повт 2015 тобынын студенттері</p>
+
+<ul>
+<li>14</li>
+<li>15</li>
+<li>14</li>
+</ul>
+<button onclick="myFunction()">кнопка удачи ид табу</button>
+<button onclick="myFunction1()">кнопка удачи тэг табу</button>
+
+<p id="demo"></p>
+
+<p id="demo1"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myP").innerHTML;
+    document.getElementById("demo").innerHTML = x;
+}
+function myFunction1(){
+	 var x = document.getElementById("li");
+    document.getElementById("demo").innerHTML = x[1].innerHTML;
+
+
+
+
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+	Oyin ati: Zymyran;
+
+	
+	1) Obiektterge atau beru;
+	2) Oiynnin algoritmi:
+		1. Shkala, Zymyran, Batirma daiyndau;
+		2. Batirmalarga function beru;
+		3. Sharttardi beru;		
+	3) Suretterdi qosu;
+	4) Zhalpy dyzaiyndy daiyndau;
+	5) Testileu zhasau;
+
+	Dizaiyn zhonindegi ydeyalar:
+		1) Tusterdi tandau;
+		2) Animation (zymyran ushuru, parashut);
+		3) Zhalpi dizaiyn;
+		
+	

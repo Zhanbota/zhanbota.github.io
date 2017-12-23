@@ -1,0 +1,26 @@
+label{
+	width: 100px;
+	height: 100px;
+	color: black;
+	background: yellow;
+	border-radius: 5px,5px,5px,5px;
+}
+.field{
+	clear: both; text-align:right; line-height: 25px;
+}
+
+input {
+position: absolute;
+left: 120px;
+float: left; padding-right: 10px;
+}
+.main{
+	float: left;
+}
+
+body{
+	background-image: url(11.jpg);
+	position: absolute;
+	left: 500px;
+	top: 25px;
+}

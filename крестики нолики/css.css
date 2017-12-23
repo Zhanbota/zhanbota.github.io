@@ -1,0 +1,42 @@
+html{
+border:0;
+font-size:100%;
+font:inherit;
+vertical-align:baseline;
+margin:0;
+padding:0;
+display:block
+line-height:1;
+list-style:none;
+quotes:none
+content:none
+border-collapse:collapse;
+border-spacing:0
+}
+
+body {
+  background-color: black;
+}
+.actions {
+  text-align: center;
+}
+.ai {
+  background-image: url("ai.jpg");
+}
+.container {
+  margin: 50px auto;
+  width: 300px;
+}
+.cell {
+  background-color: white;
+  border: 2px solid black;
+  float: left;
+  height: 96px;
+  width: 96px;
+}
+.cell:hover {
+  border-color: red;
+}
+.player {
+  background-image: url("player.jpg");
+}

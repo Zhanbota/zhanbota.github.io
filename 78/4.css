@@ -1,0 +1,32 @@
+p{ color: grey;}
+.normal div{ animation-direction: normal;}
+.reverse div{ animation-direction: reverse;}
+.alternate div{ animation-direction: alternate;}
+.alternate-reverse div{ animation-direction: alternate-reverse;}
+p:nth-child(1) strong{ color: crimson;}
+div:nth-child(2) div{ background: crimson;}
+p:nth-child(3) strong{ color: midnightblue;}
+div:nth-child(4) div{ background: midnightblue;}
+p:nth-child(5) strong{ color: mediumseagreen;}
+div:nth-child(6) div{ background: mediumseagreen;}
+p:nth-child(7) strong{ color: goldenrod;}
+div:nth-child(8) div{ background: goldenrod;}
+div {
+    background: white;
+    height: 20px;
+    width: 220px;
+}
+div div {
+    animation: swipe 2s linear infinite;
+    background: crimson;
+    height: 20px;
+    left: 0;
+    margin-top: -1rem;
+    position: relative;
+    transition: 1s;
+    width: 20px;
+}
+@keyframes swipe {
+  0%  { left: 0;}
+  100%{ left: 200px;}
+}
